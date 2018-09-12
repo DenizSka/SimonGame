@@ -15,7 +15,8 @@ Please see the folder for wireframes. I was not able to add them here.
 Initial thoughts on game structure
 
 
-***Challenges: ***
+***Challenges:***
+
 Randomizing the series with each restart.
 Adding one more box that lid up with each level (adding complexity). And keeping it random.
 Tracking the users clicks and comparing them to the computer generates series.
