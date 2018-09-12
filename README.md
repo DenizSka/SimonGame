@@ -22,6 +22,7 @@ Adding one more box that lid up with each level (adding complexity). And keeping
 Tracking the users clicks and comparing them to the computer generates series.
 
 ***Ideas:***
+
 Please note that the wireframe I used is for the basic Simon game. If I am able finish the game on time, here are the list of things I would like to add:
 - More buttons with more colors. 
 - Click sound for each user's 'click' and also music when the computer is showing the series.
