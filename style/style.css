@@ -1,0 +1,157 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+
+.blurred-bg{
+/*  background-image:url('../../project1/images/blursimon.jpeg');*/
+  background-image:url('https://i.imgur.com/6m5csLU.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#transitionbox{
+    -webkit-user-drag: element;
+/*    left: 140px;
+    top: 110.797px;*/
+}
+
+.box{
+  width:400px;
+  height:400px;
+  left:-webkit-calc( 44% - 230px );
+  top:18%;
+  border-radius:500px;
+  position:absolute;
+  @include box-shadow(0 20px 30px rgba(0,0,0,.6));
+  border:1px solid rgba(255,255,255,.3);
+  padding:100px;
+  text-align: center;
+  display: flex;
+  transition: box-shadow .3s ease;
+  z-index: 1;
+}
+
+
+/*I took the above css from this site. I adjusted a bit to match my game.:https://codepen.io/ariona/pen/geFIK*/
+
+  .content{
+    margin: auto;
+  }
+
+  #italic{
+  font-style: italic;
+  }
+
+h1 {
+  color: #4ECC2F;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family:'Yellowtail';
+  margin: 0;
+}
+h2{
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.related {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  font-family:'Yellowtail';
+}
+
+#container {
+  margin: 20%;
+  font-size: 14px;
+}
+
+h1.main {
+  color:black;
+  font-size: 82px;
+  font-weight: bold;
+  text-align: center;
+  font-family:'Yellowtail';
+  margin: 0;
+}
+
+.bigcircle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  border:16px solid #333;
+  margin:0 auto 100px;
+  position: relative;
+  box-shadow: 0px 0px 150px #333;
+}
+
+.white {
+  background-color: white;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 200px;
+  border-radius: 50%;
+  top: 200px;
+  box-shadow: 0px 0px 30px #000;
+  cursor: pointer;
+}
+
+p {
+  color:black
+  font-size: 16px;
+  font-family:'Oswald';
+  text-align: center;
+  position: relative;
+  top:50px;
+}
+
+h2 {
+  margin-top: 60px;
+  color: black;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 25px;
+}
+
+
+.smallcircles {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  float: left;
+}
+
+
+.yellow {
+  background-color: #FFD700;
+  border-radius: 0 0 100% 0;
+}
+
+
+.blue {
+  background-color: #3D4FFF;
+  border-radius: 0 100% 0 0;
+}
+
+
+.red {
+  background-color: #FF2D17;
+  border-radius: 100% 0 0 0;
+  }
+
+
+.green {
+  background-color: #4ECC2F;
+  border-radius: 0 0 0 100%;
+}
+
+
+
